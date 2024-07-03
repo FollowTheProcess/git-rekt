@@ -5,12 +5,12 @@
 [![GitHub](https://img.shields.io/github/v/release/FollowTheProcess/git-rekt?logo=github&sort=semver)](https://github.com/FollowTheProcess/git-rekt)
 [![CI](https://github.com/FollowTheProcess/git-rekt/workflows/CI/badge.svg)](https://github.com/FollowTheProcess/git-rekt/actions?query=workflow%3ACI)
 
-A profoundly unhelpful git extension
-
 > [!WARNING]
-> **Git Rekt is in early development and is not yet ready for use**
+> **Git Rekt is in early development and is not yet ready for use... or is it 👀**
 
 ## Project Description
+
+An profoundly unhelpful git extension, try it and see!
 
 ## Installation
 
@@ -21,6 +21,16 @@ brew install FollowTheProcess/homebrew-tap/git-rekt
 ```
 
 ## Quickstart
+
+Git will treat any binary on `$PATH` that starts with `git-` as a subcommand/extension, so `git-rekt` once installed can be run as `git rekt`
+
+```shell
+# Do something 👀
+git rekt
+
+# Do that... but even harder
+git rekt --hard
+```
 
 ### Credits
 
