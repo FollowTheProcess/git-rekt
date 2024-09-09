@@ -1,9 +1,10 @@
 module github.com/FollowTheProcess/git-rekt
 
 go 1.22
+toolchain go1.23.1
 
 require (
-	github.com/FollowTheProcess/msg v1.1.0
+	github.com/FollowTheProcess/msg v1.2.0
 	github.com/fatih/color v1.17.0
 	github.com/spf13/cobra v1.8.1
 )
