@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/FollowTheProcess/cli"
 	"github.com/FollowTheProcess/git-rekt/internal/insults"
-	"github.com/spf13/cobra"
 )
 
 // These are all set at compile time.
@@ -14,23 +14,22 @@ var (
 	version   = "dev"
 	commit    = ""
 	buildDate = ""
-	builtBy   = ""
 )
 
 // Build builds and returns the git-rekt CLI.
-func Build() *cobra.Command {
+func Build() (*cli.Command, error) {
 	var (
 		hard  bool // If true, insult them really hard
 		force bool // Do something *really* mean 👀
 	)
-	cmd := &cobra.Command{
-		Use:           "git-rekt",
-		Version:       version,
-		Args:          cobra.NoArgs,
-		SilenceUsage:  true,
-		SilenceErrors: true,
-		Short:         "A profoundly unhelpful git extension",
-		RunE: func(cmd *cobra.Command, args []string) error {
+	return cli.New(
+		"git-rekt",
+		cli.Short("A profoundly unhelpful git extension"),
+		cli.Version(version),
+		cli.Commit(commit),
+		cli.BuildDate(buildDate),
+		cli.Allow(cli.NoArgs()),
+		cli.Run(func(cmd *cli.Command, args []string) error {
 			if hard {
 				// Really give it to them
 				fmt.Println(insults.GetWorse())
@@ -46,15 +45,8 @@ func Build() *cobra.Command {
 			}
 
 			return nil
-		},
-	}
-	// Set our custom version and usage templates
-	cmd.SetUsageTemplate(usageTemplate)
-	cmd.SetVersionTemplate(versionTemplate)
-
-	// Set the flags
-	cmd.Flags().BoolVarP(&hard, "hard", "", false, "Do whatever it does... but harder")
-	cmd.Flags().BoolVarP(&force, "force", "f", false, "You won't like this")
-
-	return cmd
+		}),
+		cli.Flag(&hard, "hard", cli.NoShortHand, false, "Do whatever it does... but harder"),
+		cli.Flag(&force, "force", cli.NoShortHand, false, "You won't like this"),
+	)
 }
