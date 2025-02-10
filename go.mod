@@ -3,7 +3,7 @@ module github.com/FollowTheProcess/git-rekt
 go 1.23
 
 require (
-	github.com/FollowTheProcess/cli v0.11.0
+	github.com/FollowTheProcess/cli v0.12.0
 	github.com/FollowTheProcess/msg v1.5.0
 )
 
