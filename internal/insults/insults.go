@@ -2,13 +2,13 @@
 // specifically about their code quality.
 package insults
 
-import "math/rand"
+import "math/rand/v2"
 
 // Get returns a random insult, for when you just want to tease a dev.
 //
 //	insults.Get() // "Your code is the reason debuggers were invented"
 func Get() string {
-	index := rand.Intn(len(normal))
+	index := rand.IntN(len(normal)) //nolint: gosec // This doesn't matter here
 	return normal[index]
 }
 
@@ -16,7 +16,7 @@ func Get() string {
 //
 //	insults.GetWorse() // "The kindest thing to do to your repo is force push a commit deleting it all"
 func GetWorse() string {
-	index := rand.Intn(len(worse))
+	index := rand.IntN(len(worse)) //nolint: gosec // This doesn't matter here
 	return worse[index]
 }
 
