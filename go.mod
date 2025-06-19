@@ -4,7 +4,7 @@ go 1.24
 
 require (
 	github.com/FollowTheProcess/cli v0.13.0
-	github.com/FollowTheProcess/msg v1.8.0
+	go.followtheprocess.codes/msg v1.9.0
 )
 
 require (

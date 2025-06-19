@@ -2,12 +2,12 @@ github.com/FollowTheProcess/cli v0.13.0 h1:FRW4R16wZIX/o/mFduPU70wWVQTRea5CcHD00
 github.com/FollowTheProcess/cli v0.13.0/go.mod h1:xO6uc81RNHVrFe2Vu+AjLWgLUh7GGx0lz/h7Bqt6URU=
 github.com/FollowTheProcess/hue v0.5.2 h1:Ns/vO8wiwv2oXDn+QyBLcYCK0LcfXVVu31bHGTLAFHI=
 github.com/FollowTheProcess/hue v0.5.2/go.mod h1:5FD2UrxTzWi0Uc63w8ndsjqPrH4xn3Q7k7vEpINqEP4=
-github.com/FollowTheProcess/msg v1.8.0 h1:oQg3IZvfXE3kc2YnfxDh1fb5g8H2MO09xPP3bVLXdy8=
-github.com/FollowTheProcess/msg v1.8.0/go.mod h1:LJslku1H62ZA0cIeyjBduTOTJyRutIEfTHFZIz8OTEs=
 github.com/FollowTheProcess/snapshot v0.4.1 h1:WIwvs+yZrK9886frLbNB98QWkAXTjIGnuvEjURHOrtE=
 github.com/FollowTheProcess/snapshot v0.4.1/go.mod h1:hb3V3azvp8FVrl4pvyhvq/ZYOnFSgyKHfXt96Jgg4e0=
 github.com/FollowTheProcess/test v0.20.2 h1:8/Yw7ny7IVMHIp/dmkGOdDYSUbAy77c+jDq86nfAhOw=
 github.com/FollowTheProcess/test v0.20.2/go.mod h1:4XBQyPoORSO1ZQcXpuopbv1INCAQNB1TY4SF6lGfBwU=
+go.followtheprocess.codes/msg v1.9.0 h1:3AraLKaZa714bnErK2uqMgt2Unxqnq5Zg8g/bGJdMno=
+go.followtheprocess.codes/msg v1.9.0/go.mod h1:5lxiiBR8RWKfJY57TgIESFO+8Kgn2B3UiyRcdJt5IKA=
 golang.org/x/sys v0.31.0 h1:ioabZlmFYtWhL+TRYpcnNlLwhyxaM9kWTDEmfnprqik=
 golang.org/x/sys v0.31.0/go.mod h1:BJP2sWEmIv4KK5OTEluFJCKSidICx8ciO85XgH3Ak8k=
 golang.org/x/term v0.30.0 h1:PQ39fJZ+mfadBm0y5WlL4vlM7Sx1Hgf13sMIY2+QS9Y=
