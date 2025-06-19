@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/FollowTheProcess/git-rekt/internal/cli"
-	"github.com/FollowTheProcess/msg"
+	"go.followtheprocess.codes/msg"
 )
 
 func main() {
