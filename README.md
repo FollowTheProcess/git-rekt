@@ -17,7 +17,7 @@ An profoundly unhelpful git extension, try it and see!
 Compiled binaries for all supported platforms can be found in the [GitHub release]. There is also a [homebrew] tap:
 
 ```shell
-brew install FollowTheProcess/tap/git-rekt
+brew install --cask FollowTheProcess/tap/git-rekt
 ```
 
 ## Quickstart

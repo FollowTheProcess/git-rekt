@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/FollowTheProcess/git-rekt/internal/insults"
 	"go.followtheprocess.codes/cli"
+	"go.followtheprocess.codes/git-rekt/internal/insults"
 )
 
 // These are all set at compile time.

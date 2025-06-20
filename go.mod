@@ -1,4 +1,4 @@
-module github.com/FollowTheProcess/git-rekt
+module go.followtheprocess.codes/git-rekt
 
 go 1.24
 
