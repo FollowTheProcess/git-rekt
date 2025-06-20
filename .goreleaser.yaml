@@ -15,9 +15,9 @@ builds:
       - -trimpath
     ldflags:
       - -s -w
-      - -X github.com/FollowTheProcess/git-rekt/internal/cli.version={{.Version}}
-      - -X github.com/FollowTheProcess/git-rekt/internal/cli.commit={{.Commit}}
-      - -X github.com/FollowTheProcess/git-rekt/internal/cli.buildDate={{.Date}}
+      - -X go.followtheprocess.codes/git-rekt/internal/cli.version={{.Version}}
+      - -X go.followtheprocess.codes/git-rekt/internal/cli.commit={{.Commit}}
+      - -X go.followtheprocess.codes/git-rekt/internal/cli.buildDate={{.Date}}
     env:
       - CGO_ENABLED=0
     goos:

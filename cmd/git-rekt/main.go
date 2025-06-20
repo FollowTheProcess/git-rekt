@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/FollowTheProcess/git-rekt/internal/cli"
+	"go.followtheprocess.codes/git-rekt/internal/cli"
 	"go.followtheprocess.codes/msg"
 )
 
