@@ -6,9 +6,17 @@ github.com/FollowTheProcess/snapshot v0.4.1 h1:WIwvs+yZrK9886frLbNB98QWkAXTjIGnu
 github.com/FollowTheProcess/snapshot v0.4.1/go.mod h1:hb3V3azvp8FVrl4pvyhvq/ZYOnFSgyKHfXt96Jgg4e0=
 github.com/FollowTheProcess/test v0.20.2 h1:8/Yw7ny7IVMHIp/dmkGOdDYSUbAy77c+jDq86nfAhOw=
 github.com/FollowTheProcess/test v0.20.2/go.mod h1:4XBQyPoORSO1ZQcXpuopbv1INCAQNB1TY4SF6lGfBwU=
+go.followtheprocess.codes/hue v0.6.0 h1:JDLnRrkauCCIyYRqKNBDM+X6X5o75j2CG3iddnzIuhc=
+go.followtheprocess.codes/hue v0.6.0/go.mod h1:tNCWKaywHqkFo20hYOVwG7CaoRajJeE2AueP5HStY7U=
 go.followtheprocess.codes/msg v1.9.0 h1:3AraLKaZa714bnErK2uqMgt2Unxqnq5Zg8g/bGJdMno=
 go.followtheprocess.codes/msg v1.9.0/go.mod h1:5lxiiBR8RWKfJY57TgIESFO+8Kgn2B3UiyRcdJt5IKA=
+go.followtheprocess.codes/msg v1.9.1 h1:Gm9lIG2S7Lt9OSrAGvLWe+i487MVz3KZNNi56LLHsuo=
+go.followtheprocess.codes/msg v1.9.1/go.mod h1:UcgJDy8xvI2QEuJBiQMvmyzkg6bIgch3KigICvvvZ3E=
 golang.org/x/sys v0.31.0 h1:ioabZlmFYtWhL+TRYpcnNlLwhyxaM9kWTDEmfnprqik=
 golang.org/x/sys v0.31.0/go.mod h1:BJP2sWEmIv4KK5OTEluFJCKSidICx8ciO85XgH3Ak8k=
+golang.org/x/sys v0.33.0 h1:q3i8TbbEz+JRD9ywIRlyRAQbM0qF7hu24q3teo2hbuw=
+golang.org/x/sys v0.33.0/go.mod h1:BJP2sWEmIv4KK5OTEluFJCKSidICx8ciO85XgH3Ak8k=
 golang.org/x/term v0.30.0 h1:PQ39fJZ+mfadBm0y5WlL4vlM7Sx1Hgf13sMIY2+QS9Y=
 golang.org/x/term v0.30.0/go.mod h1:NYYFdzHoI5wRh/h5tDMdMqCqPJZEuNqVR5xJLd/n67g=
+golang.org/x/term v0.32.0 h1:DR4lr0TjUs3epypdhTOkMmuF5CDFJ/8pOnbzMZPQ7bg=
+golang.org/x/term v0.32.0/go.mod h1:uZG1FhGx848Sqfsq4/DlJr3xGGsYMu/L5GW4abiaEPQ=
