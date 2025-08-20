@@ -77,3 +77,9 @@ tasks:
   uninstall:
     desc: Uninstall the project from your machine
     cmd: rm -rf $GOBIN/git-rekt
+
+  update:
+    desc: Update dependencies in go.mod
+    cmds:
+      - go get -u ./...
+      - go mod tidy

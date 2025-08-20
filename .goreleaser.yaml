@@ -37,8 +37,6 @@ homebrew_casks:
     directory: Casks
     description: A profoundly unhelpful git extension
     homepage: https://github.com/FollowTheProcess/git-rekt
-    conflicts:
-      - formula: git-rekt
     commit_author:
       name: Tom Fleet
       email: me@followtheprocess.codes

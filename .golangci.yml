@@ -152,12 +152,7 @@ linters:
           disabled: true # predeclared does this
 
         - name: unhandled-error
-          arguments:
-            - fmt\.(Fp|P)rint(ln|f)?
-            - strings.Builder.Write(String|Byte)?
-            - bytes.Buffer.Write(String|Byte)?
-            - go/printer.(Fp|P)rint(ln|f)?
-            - text/tabwriter.Writer.Flush
+          disabled: true # errcheck
 
         - name: flag-parameter
           disabled: true # As far as I can work out this just doesn't like bools
