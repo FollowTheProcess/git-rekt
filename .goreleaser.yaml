@@ -33,7 +33,8 @@ builds:
 
 homebrew_casks:
   - name: git-rekt
-    binary: git-rekt
+    binaries:
+      - git-rekt
     directory: Casks
     description: A profoundly unhelpful git extension
     homepage: https://github.com/FollowTheProcess/git-rekt
