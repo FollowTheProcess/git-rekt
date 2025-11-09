@@ -6,6 +6,8 @@ go.followtheprocess.codes/cli v0.15.0 h1:YcL5DvUbl3689tNZi+lgrYlfUtHRNTAA1zxNVVn
 go.followtheprocess.codes/cli v0.15.0/go.mod h1:DFhcxAmqxy0acwXmNiqY34Vja1jMWKLvOQDUseCY6WM=
 go.followtheprocess.codes/cli v0.16.0 h1:fzuJQifIdZA8gPAOKMklJ2jdp5UaGbBXH8txzoUAN6E=
 go.followtheprocess.codes/cli v0.16.0/go.mod h1:3zCwrPo0bbuFbLVVOdkLgcMLL6oEmErx0vYu8RfKfao=
+go.followtheprocess.codes/cli v0.17.0 h1:wAahiHmRUGEZ72jXOrZw5mPzU5h5qYDzqEt39zaW684=
+go.followtheprocess.codes/cli v0.17.0/go.mod h1:vNqup3nFyWFAqJdZyL8s29ES/dt2FOJsvJ7kFH+CgWc=
 go.followtheprocess.codes/hue v0.6.0 h1:JDLnRrkauCCIyYRqKNBDM+X6X5o75j2CG3iddnzIuhc=
 go.followtheprocess.codes/hue v0.6.0/go.mod h1:tNCWKaywHqkFo20hYOVwG7CaoRajJeE2AueP5HStY7U=
 go.followtheprocess.codes/hue v0.7.0 h1:6HaZTGc4NYVnqqjYZTTBcVYRKb8MyfPe5yBHJiBfekg=
@@ -26,6 +28,8 @@ golang.org/x/sys v0.36.0 h1:KVRy2GtZBrk1cBYA7MKu5bEZFxQk4NIDV6RLVcC8o0k=
 golang.org/x/sys v0.36.0/go.mod h1:OgkHotnGiDImocRcuBABYBEXf8A9a87e/uXjp9XT3ks=
 golang.org/x/sys v0.37.0 h1:fdNQudmxPjkdUTPnLn5mdQv7Zwvbvpaxqs831goi9kQ=
 golang.org/x/sys v0.37.0/go.mod h1:OgkHotnGiDImocRcuBABYBEXf8A9a87e/uXjp9XT3ks=
+golang.org/x/sys v0.38.0 h1:3yZWxaJjBmCWXqhN1qh02AkOnCQ1poK6oF+a7xWL6Gc=
+golang.org/x/sys v0.38.0/go.mod h1:OgkHotnGiDImocRcuBABYBEXf8A9a87e/uXjp9XT3ks=
 golang.org/x/term v0.34.0 h1:O/2T7POpk0ZZ7MAzMeWFSg6S5IpWd/RXDlM9hgM3DR4=
 golang.org/x/term v0.34.0/go.mod h1:5jC53AEywhIVebHgPVeg0mj8OD3VO9OzclacVrqpaAw=
 golang.org/x/term v0.35.0 h1:bZBVKBudEyhRcajGcNc3jIfWPqV4y/Kt2XcoigOWtDQ=
