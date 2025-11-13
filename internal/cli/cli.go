@@ -2,6 +2,7 @@
 package cli
 
 import (
+	"context"
 	"fmt"
 	"os"
 
@@ -29,7 +30,7 @@ func Build() (*cli.Command, error) {
 		cli.Version(version),
 		cli.Commit(commit),
 		cli.BuildDate(buildDate),
-		cli.Run(func(cmd *cli.Command) error {
+		cli.Run(func(ctx context.Context, cmd *cli.Command) error {
 			if hard {
 				// Really give it to them
 				fmt.Println(insults.GetWorse())
@@ -46,7 +47,7 @@ func Build() (*cli.Command, error) {
 
 			return nil
 		}),
-		cli.Flag(&hard, "hard", flag.NoShortHand, false, "Do whatever it does... but harder"),
-		cli.Flag(&force, "force", flag.NoShortHand, false, "You won't like this"),
+		cli.Flag(&hard, "hard", flag.NoShortHand, "Do whatever it does... but harder"),
+		cli.Flag(&force, "force", flag.NoShortHand, "You won't like this"),
 	)
 }
