@@ -2,6 +2,8 @@ go.followtheprocess.codes/cli v0.17.0 h1:wAahiHmRUGEZ72jXOrZw5mPzU5h5qYDzqEt39za
 go.followtheprocess.codes/cli v0.17.0/go.mod h1:vNqup3nFyWFAqJdZyL8s29ES/dt2FOJsvJ7kFH+CgWc=
 go.followtheprocess.codes/cli v0.18.0 h1:lOf/ENPGmkIy+gaSQjde2/KF76rVWSZs6OWh0b9a+2E=
 go.followtheprocess.codes/cli v0.18.0/go.mod h1:ne10OqfFoZgMX2Q6XDrd25qHKqD2iPVQqQubniRdfBk=
+go.followtheprocess.codes/cli v0.18.1 h1:608jTB3EgRQWo/4+eDN6PITl5wrCDIcwLwM2bJ+iXfs=
+go.followtheprocess.codes/cli v0.18.1/go.mod h1:9rT0xkZuUZRWFHc4cHu//BcYLC2/cXS3cVu7BCpRSv4=
 go.followtheprocess.codes/hue v1.0.0 h1:0fYXAGR1o+w7Vja+Q+iVtqeEP3/CE6ET/pniyl8e9yo=
 go.followtheprocess.codes/hue v1.0.0/go.mod h1:gSn5xK6KJapih+eFgQk3woo1qg3/rx9XSrAanUIuDr8=
 go.followtheprocess.codes/msg v1.9.2 h1:h97UeKDW23PncdM+7U91Q763Uq+QwJjVRj/NdIlREj0=
