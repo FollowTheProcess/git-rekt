@@ -12,6 +12,8 @@ go.followtheprocess.codes/cli v0.19.0 h1:V0JjyQyJyu/aHYFFibpnUHfCu0R7qs2BGSZQR7M
 go.followtheprocess.codes/cli v0.19.0/go.mod h1:OKqn4Ps6y2cxUPBBxNfHBF5zRe4gIJk5a8u5SKnNuXs=
 go.followtheprocess.codes/cli v0.20.0 h1:oidHolLCF2iNart+3KhJMsGtBP+nlSWzlT9VvJAHx2Q=
 go.followtheprocess.codes/cli v0.20.0/go.mod h1:l1htpdaL3koow6fKy0tVjqAdHxpbHL8amYW/w1pD8I8=
+go.followtheprocess.codes/cli v0.20.1 h1:iy2z+dybwb+hpK57ZlnZNpLNlmjdUkaK64Xx6QcL28o=
+go.followtheprocess.codes/cli v0.20.1/go.mod h1:l1htpdaL3koow6fKy0tVjqAdHxpbHL8amYW/w1pD8I8=
 go.followtheprocess.codes/hue v1.0.0 h1:0fYXAGR1o+w7Vja+Q+iVtqeEP3/CE6ET/pniyl8e9yo=
 go.followtheprocess.codes/hue v1.0.0/go.mod h1:gSn5xK6KJapih+eFgQk3woo1qg3/rx9XSrAanUIuDr8=
 go.followtheprocess.codes/hue v1.1.0 h1:bPq21YLdWxQ0ki4lIvXCYtgutaGaDUYaSIENDdrrlNQ=
