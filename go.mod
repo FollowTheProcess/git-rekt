@@ -3,7 +3,7 @@ module go.followtheprocess.codes/git-rekt
 go 1.26
 
 require (
-	go.followtheprocess.codes/cli v0.20.0
+	go.followtheprocess.codes/cli v0.20.1
 	go.followtheprocess.codes/msg v1.9.2
 )
 
