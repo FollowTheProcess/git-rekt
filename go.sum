@@ -22,6 +22,8 @@ go.followtheprocess.codes/hue v1.1.0 h1:bPq21YLdWxQ0ki4lIvXCYtgutaGaDUYaSIENDdrr
 go.followtheprocess.codes/hue v1.1.0/go.mod h1:VnCeVmYESGmX7fZJSFs59u8G+5zseCwGdFiJGHCFg4o=
 go.followtheprocess.codes/msg v1.9.2 h1:h97UeKDW23PncdM+7U91Q763Uq+QwJjVRj/NdIlREj0=
 go.followtheprocess.codes/msg v1.9.2/go.mod h1:/x18lCt8uyCWwrfMBXJkb4cV1yG9ipK++yoYECtU1tw=
+go.followtheprocess.codes/msg v1.10.0 h1:0uMrQpmhIxWDL7p8hw6DQ0wMRcNmsE8Vi0zECeyhDT8=
+go.followtheprocess.codes/msg v1.10.0/go.mod h1:5bHWSD5Fxy0SsCepbIId3Y+UvPc1ct+43lwsg2ER33w=
 go.followtheprocess.codes/snapshot v0.6.1 h1:cZkQtEjL21BSrHn98Lm0S4yTzcOje/K60Iog/u/A5tM=
 go.followtheprocess.codes/snapshot v0.6.1/go.mod h1:CM2E92Ah/j0XL4Z2UyOl7GlSuD0ZLLl8rJCpFylKcIg=
 go.followtheprocess.codes/test v1.0.0 h1:5m2MPOQpohDC9pf5hgqpH+4ldJP5g+YFVdoGQY41aeU=
