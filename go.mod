@@ -4,7 +4,7 @@ go 1.26
 
 require (
 	go.followtheprocess.codes/cli v0.21.0
-	go.followtheprocess.codes/msg v1.9.2
+	go.followtheprocess.codes/msg v1.10.0
 )
 
 require (
